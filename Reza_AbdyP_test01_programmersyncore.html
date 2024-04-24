@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test I Reza Abdy P Programmer Syncore</title>
+</head>
+
+<body>
+    <h2>1. Mengapa setiap bahasa pemrograman itu terdapat framework, apa kegunaan framework ?</h2>
+    <p>Framework pada bahasa pemrograman dibuat untuk membantu pengembang dalam membangun aplikasi dengan cara yang
+        lebih efisien, konsisten, dan terorganisir. Kegunaan framework sendiri yaitu untuk:</p>
+    <ul>
+        <li>Meningkatkan Produktivitas</li>
+        <li>Konsistensi Kode</li>
+        <li>Mendapatkan Fitur Keamanan</li>
+        <li>Pengurangan Biaya dan Waktu Pengembangan</li>
+        <li>Banyaknya Dukungan Komunitas yang dapat mempermudah dalam membangun aplikasi</li>
+    </ul>
+
+    <h2>2. Jelaskan mengenai fungsi dan penggunaan if else, while, while do, switch case, for, foreach?</h2>
+    <h3>a. IF Else</h3>
+    <p>IF Else digunakan untuk membuat keputusan berdasarkan kondisi yang diberikan jika kondisi bernilai "true" maka
+        blok kode dalam "IF" akan dikesekusi,jika salah "false" maka blok kode dalam "Else" akan dieksekusi.</p>
+    <h5>Penggunaan If Else pada javascript:</h5>
+    <pre>
+let nilai = 75;
+if (nilai >= 60) {
+    console.log("Lulus");
+} else {
+    console.log("Tidak Lulus");
+}
+    </pre>
+
+    <h3>b. While</h3>
+    <p>While digunakan untuk iterasi atau pengulangan suatu blok kode selama kondisi yang diberikan bernilai benar.</p>
+    <h5>Penggunaan While pada javascript:</h5>
+    <pre>
+let count = 0;
+while (count < 5) {
+    console.log("Pengulangan " + count);
+    count++;
+}
+    </pre>
+
+    <h3>c. Do While</h3>
+    <p>Do While digunakan untuk iterasi atau pengulangan suatu blok kode setidaknya sekali, sebelum kondisi diperiksa.
+    </p>
+    <pre>
+let count = 0;
+<h5>Penggunaan Do While pada javascript:</h5>
+do {
+    console.log("Pengulangan " + count);
+    count++;
+} while (count < 5);
+    </pre>
+
+    <h3>d. Switch Case</h3>
+    <p>Switch Case digunakan untuk membandingkan satu variabel dengan beberapa nilai.
+    </p>
+    <h5>Penggunaan Switch Case pada javascript:</h5>
+    <pre>
+let bulan = 4;
+switch (bulan) {
+    case 1:
+        console.log("Januari");
+        break;
+    case 2:
+        console.log("Februari");
+        break;
+    case 3:
+        console.log("Maret");
+        break;
+    case 4:
+        console.log("April");
+        break;
+    default:
+        console.log("Bulan tidak diketahui");
+        break;
+}
+    </pre>
+
+    <h3>e. For</h3>
+    <p> For digunakan untuk mengulangi suatu blok kode untuk jumlah tertentu, dengan kontrol lebih pada variabel
+        iterasi.</p>
+    <h5>Penggunaan For pada javascript:</h5>
+    <pre>
+for (let i = 0; i < 5; i++) {
+    console.log("Pengulangan ke-" + i);
+}
+    </pre>
+
+    <h3>f. Foreach</h3>
+    <p> Foreach digunakan untuk mengulangi elemen-elemen dalam suatu koleksi atau array dengan lebih sederhana tanpa
+        perlu menggunakan indeks.</p>
+    <h5>Penggunaan Foreach pada javascript:</h5>
+    <pre>
+let buah = ["Apel", "Jeruk", "Mangga"];
+buah.forEach(function(b) {
+    console.log(b);
+});
+    </pre>
+
+    <h2>3. Apa itu constructor, method, class, object, variabel, parameter, function, procedure ?</h2>
+    <h3>a. Constructor</h3>
+    <p>Constructor adalah class yang dipanggil saat sebuah objek dibuat. Constructor biasanya digunakan untuk
+        menginisialisasi keadaan objek, seperti memberikan nilai awal pada variabel-variabelnya.
+    </p>
+    <h3>b. Method</h3>
+    <p> Method adalah fungsi yang didefinisikan di dalam class dan digunakan untuk mendefinisikan perilaku dari sebuah
+        objek. Method biasanya dapat mengakses data yang disimpan dalam objek dan juga mengubah status dari objek
+        tersebut.</p>
+    <h3>c. Class</h3>
+    <p> Class adalah definisi kode yang digunakan untuk membuat objek. Class mendefinisikan variabel dan method yang
+        dimiliki oleh objek.</p>
+    <h3>d. Object</h3>
+    <p>Object adalah instance dari sebuah class. Objek memiliki identitas, state, dan perilaku.
+
+
+        <h3>e. Variable</h3>
+        <p>Variable adalah tempat penyimpanan yang memiliki nama dan digunakan untuk menyimpan nilai atau informasi yang
+            dapat berubah selama program dijalankan.</p>
+
+        <h3>f. Parameter</h3>
+        <p>Parameter adalah variabel yang digunakan untuk menerima nilai dari luar saat sebuah fungsi atau metode
+            dipanggil.</p>
+        <h3>f. Function </h3>
+        <p>Function adalah fungsi yang dirancang untuk melakukan tugas tertentu, dapat dipanggil ketika diperlukan, dan
+            dapat mengembalikan nilai. Function dapat memiliki parameter untuk menerima input.
+
+        </p>
+        <h3>g. Procedure</h3>
+        <p> Procedure digunakan untuk menekankan bahwa operasi yang dilakukan tidak menghasilkan output atau return
+            value.</p>
+
+
+        <h2>4. Perbedaan method=”Post” dan “Get” ?</h2>
+        <p>- GET digunakan untuk mengambil data dari server. Data yang diminta disertakan dalam URL sebagai bagian dari
+            permintaan.<br>
+            - POST digunakan untuk mengirim data baru atau terupdate ke server. Data tersebut dikirim melalui body dari
+            permintaan dan tidak terlihat di URL.</p>
+
+        <h2>5. Jelaskan konsep mengenai web service dan fungsi apa yang digunakan untuk memanggil web service client ?
+        </h2>
+        <p>Web service adalah sebuah layanan yang tersedia melalui web, yang memungkinkan aplikasi untuk berkomunikasi
+            atau bertukar data antara satu sama lain, Web service menggunakan standar internet untuk mengirim dan
+            menerima pesan data, melalui protokol HTTP. Format data yang sering digunakan dalam web service adalah XML
+            (eXtensible Markup Language) dan JSON (JavaScript Object Notation).</p>
+
+        <p>
+            - Untuk memanggil web service dari client, biasanya digunakan HTTP request methods seperti GET, POST,
+            PUT,PATCH dan DELETE. Fungsi atau metode yang digunakan untuk melakukan pemanggilan ini tergantung pada
+            bahasa pemrograman atau platform yang digunakan, namun konsepnya serupa di mana sebuah HTTP request
+            dikirimkan dan respons diharapkan dari server. </p>
+
+
+
+
+        <h2>6. Jelaskan mengenai MVC dan HMVC !</h2>
+        <h3>a. MVC (Model View Controller)</h3>
+        <p>MVC adalah sebuah desain arsitektural untuk memisahkan representasi data dari interaksi pengguna. <br>
+            - Model adalah Komponen yang bertanggung jawab atas data, logika bisnis, dan aturan aplikasi. Model
+            menyimpan data dan keadaan aplikasi, biasanya berinteraksi dengan database atau layanan lain untuk mengelola
+            data. <br>
+            - View adalah komponen yang menangani representasi visual dari data, yaitu apa yang pengguna lihat di layar.
+            View mempresentasikan data dari Model kepada pengguna. <br>
+            - Controller adalah sebagai perantara antara Model dan View. Controller menerima input dari pengguna,
+            memprosesnya (dengan mungkin mengubah Model), dan mengirimkan data kembali ke View untuk diperbarui.
+        </p>
+
+        <h3>b. HMVC (Hierarchical Model View Controller)</h3>
+        <p>HMVC (Hierarchical Model View Controller) adalah ekstensi dari pola MVC yang dengan konsep hierarki dalam
+            komponen MVC. <br>
+            - Modul dalam HMVC, setiap modul adalah sub-sistem yang lengkap dengan Model, View, dan Controller sendiri.
+            Modul-modul ini dapat berinteraksi tetapi umumnya dirancang untuk operasi mandiri, yang bersifat modular.
+            <br>
+            - Hierarki dalam HMVC memungkinkan aplikasi untuk disusun dalam struktur yang lebih teratur, memfasilitasi
+            pembagian aplikasi yang besar menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola.
+
+        </p>
+
+
+        <h2>7. Sebutkan fungi curl() dalam php!</h2>
+        <ol>
+            <li>Mengirim Permintaan HTTP</li>
+            <li>Menghandle Header dan Cookies</li>
+            <li>Mengunggah dan Mengunduh File</li>
+            <li>Mengakses API Web</li>
+            <li>Mengelola Opsi Koneksi</li>
+        </ol>
+
+
+        <h2>8. Bagaimana menampilkan sebuah element array dalam PHP ?</h2>
+        <p>untuk menampilkan sebuah array pada php bisa menggunakan foreach atau var_dump</p>
+        <h6>Foreach</h6>
+        <pre>
+
+            $array = ['apple', 'banana', 'cherry'];
+            foreach ($array as $item) {
+                echo $item ."";
+            }
+
+    </pre>
+        <h6>var_dump</h6>
+        <pre>
+
+        $array = ['apple', 'banana', 'cherry'];
+        var_dump($array);
+
+    </pre>
+
+        <h2>9. Perbedaan HTTP dan HTTPS ?</h2>
+        <ul>
+            <li>- HTTP tidak memiliki fitur enkripsi bawaan.Data yang dikirim dan diterima melalui HTTP dapat dengan
+                mudah disadap atau dimodifikasi oleh pihak ketiga selama transmisi, yang dikenal sebagai serangan
+                "man-in-the-middle".
+            </li>
+            <li>
+                - HTTPS, menggunakan protokol SSL/TLS untuk mengenkripsi data yang ditransmisikan. Ini membuat data
+                tidak bisa dibaca oleh pihak ketiga yang mungkin mencoba mengintersepsi transmisi tersebut. Enkripsi ini
+                melindungi terhadap penyadapan dan memastikan integritas data.</li>
+        </ul>
+
+
+        <h2>10. Jelaskan Apa itu API? sebutkan contohnya?</h2>
+        <p> API (Application Programming Interface) adalah sekumpulan aturan dan definisi yang memungkinkan aplikasi
+            perangkat lunak berkomunikasi satu sama lain.API berperan sebagai jembatan yang memungkinkan satu program
+            untuk mengakses fitur atau data dari aplikasi lain, tanpa perlu mengetahui detail implementasi internal dari
+            aplikasi tersebut.</p>
+        <h6>contoh API:</h6>
+        <p>Kegunaan = Mengintegrasikan peta, pencarian lokasi, dan fitur navigasi ke dalam aplikasi web atau mobile.
+            <br>
+            Contoh= penggunaan sebuah aplikasi pengiriman makanan menggunakan Google Maps API untuk menampilkan peta
+            kepada pengguna dan membantu pengemudi menemukan alamat pengiriman dengan tepat.</p>
+</body>
+
+</html>
